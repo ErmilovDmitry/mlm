@@ -1,0 +1,89 @@
+.banner .nav li {
+  @extend .nav-item;
+}
+
+.banner .nav a {
+  @extend .nav-link;
+}
+
+.navbar,
+.navbar-brand {
+  padding-top: 0;
+}
+
+.brand {
+  height: 88px;
+  width: auto;
+}
+
+@media (max-width: 1200px) {
+  .navbar__magasins {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar__cta {
+    display: none;
+  }
+
+  .brand {
+    height: 52px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link,
+  a.nav-link {
+    padding: 1rem;
+  }
+
+  // .navbar-expand-lg .navbar-collapse {
+  //   justify-content: space-between;
+  // }
+
+  .navbar-expand-lg {
+    padding-left: 54px;
+    padding-right: 54px;
+  }
+}
+
+a.nav-link {
+  font-size: 18px;
+  color: $brown;
+  text-transform: uppercase;
+  letter-spacing: +0.3rem;
+  transition: all 300ms ease-in-out;
+
+  &:hover {
+    color: $orange;
+  }
+}
+
+.navbar__magasins {
+  color: $brown !important;
+}
+
+.btn {
+  font-size: 18px;
+  color: $orange;
+  text-transform: uppercase;
+  letter-spacing: +0.3rem;
+  transition: all 300ms ease-in-out;
+
+  &:hover {
+    background: $orange;
+    color: #fff;
+  }
+}
+
+.topper {
+  text-align: right;
+  padding-left: 54px;
+  padding-right: 54px;
+  padding-top: 18px;
+
+  .nav-link {
+    padding: 0.5rem;
+  }
+}

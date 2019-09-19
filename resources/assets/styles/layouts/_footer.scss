@@ -1,0 +1,72 @@
+.footer {
+  background: url(../images/bg_zodiac.jpg) center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  .shade {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    content: "";
+    background: $brown;
+    opacity: 0.5;
+  }
+
+  h5 {
+    font-weight: bold;
+    padding-top: 35px;
+    padding-bottom: 10px;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  ul li {
+    list-style: none;
+    // margin-bottom: 18px;
+    line-height: 40px;
+  }
+
+  .footer__input {
+    padding: 0.5rem;
+    border-radius: 7px;
+    opacity: 0.85;
+    margin-right: 5px;
+    width: 221px;
+
+    ::placeholder {
+      padding: 0.5rem;
+    }
+  }
+
+  .btn {
+    font-weight: bold;
+  }
+
+  .social {
+    font-size: 30px;
+  }
+
+  .footer_image {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+}
+
+.epilog {
+  background: $dark-brown;
+  color: #fff;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+img.logo_mlm_white {
+  width: 100%;
+  max-width: 320px;
+}
